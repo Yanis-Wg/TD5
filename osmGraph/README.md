@@ -54,5 +54,3 @@ Voici ce que je comprend des différentes étapes de simplification implémenté
 
     *Pourquoi* : Permet de supprimer les points et informations inutiles et de garder l'essentiels.
 
-  
-Et voici les raisons pour lesquelles elles sont utilisées (leur impact sur la structure du graphe, les avantages/inconvénients, etc.) : 
