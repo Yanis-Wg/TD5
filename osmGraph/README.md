@@ -34,25 +34,25 @@ Voici ce que je comprend des différentes étapes de simplification implémenté
 
     - **keep_only_largest_connected_component(graph)** : compare les différents composants et garde le plus grand, il supprime les points qui ne sont pas dans le composant le plus grand.
   
-    *Pourquoi* :
+    *Pourquoi* : Ca permet de simplifier la représentation de chemin/structure sur la carte mais ca les simplifie parfois trop, au point que des tracés important pour la compréhension sont supprimés.
   
     - **remove_small_ending_edge(graph, 10.0)** : stock dans un tableau tout les points/noeuds à supprimer en fonction de la taille du voisin/du degré, s'il est inférieur à 1 alors on met le point dans le tableau de ce qui doivent être supprimé. A la toute fin on supprime tout les points noté dans le tableau des points à supprimer.
 
-    *Pourquoi* :
+    *Pourquoi* : Permet de supprimer les bords inutiles qui vont trop dans le détail du graphe.
 
     - **remove_degree_two_nodes_by_angle_threshold(graph, 30)** : 
     S'il existe un point entre deux points dont l'angle est "inutile", alors on supprime ce point car la liaison des deux points qui encerclent l'angle n'en sera pas impacté.
 
-    *Pourquoi* :
+    *Pourquoi* : Permet de supprimer les points et informations inutiles et de garder l'essentiels.
 
-    - **group_nodes_by_connection_depth_and_proximity(graph, 10.0, 6)** : On créer différent tableau qu'on appelle cluster qui permettent de trier les différents noeuds en fonction de leur porximité et de leur profondeur.
+    - **group_nodes_by_connection_depth_and_proximity(graph, 10.0, 6)** : On créer différent tableau qu'on appelle cluster qui permettent de trier les différents noeuds en fonction de leur proximité et de leur profondeur.
 
-    *Pourquoi* :
+    *Pourquoi* : permet de trier et classer les noeuds/points en différente catégorie.
 
     - **remove_degree_two_nodes_by_angle_threshold(graph, 30)** : 
     S'il existe un point entre deux points dont l'angle est "inutile", alors on supprime ce point car la liaison des deux points qui encerclent l'angle n'en sera pas impacté.
 
-    *Pourquoi* :
+    *Pourquoi* : Permet de supprimer les points et informations inutiles et de garder l'essentiels.
 
   
 Et voici les raisons pour lesquelles elles sont utilisées (leur impact sur la structure du graphe, les avantages/inconvénients, etc.) : 
