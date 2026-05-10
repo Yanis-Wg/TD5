@@ -1,0 +1,3 @@
+C:\Winlibs\mingw64\bin\cmake.exe -E rm -f CMakeFiles\osmGraph.dir/objects.a
+C:\Winlibs\mingw64\bin\ar.exe qc CMakeFiles\osmGraph.dir/objects.a @CMakeFiles\osmGraph.dir\objects1.rsp
+C:\Winlibs\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\osmGraph.dir/objects.a -Wl,--no-whole-archive -o C:\Users\ynaru\Documents\IMAC\C++\S2\TD7\osmGraph\bin\Debug\osmGraph.exe -Wl,--out-implib,libosmGraph.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\osmGraph.dir\linkLibs.rsp

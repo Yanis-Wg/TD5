@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+7617f3c2a084aa7435b312d5889bb7ec CMakeFiles/pugixml-populate
+6832ad7e3334850e8bcb9ff12f5fb6d6 CMakeFiles/pugixml-populate-complete
+39fb2a94b72a3f8fdaa39e5a85ed74c7 pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-build
+79abb782cc4883b4e488ec5deea4a4b0 pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-configure
+419255a55758b6be33f5898013056e18 pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-download
+33de03faa9935b4b3c72e2a48079998d pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-install
+8b29a143f3cebfd5526177cbec6ab3e5 pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-mkdir
+eea893a6aca5ad378d5b6ecf34b395c4 pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-patch
+b7453f73a5e5bc10c45b8320b9382d74 pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-test
+92e3b9b59c4ad9ad84b2bf35c5f8d88b pugixml-populate-prefix/src/pugixml-populate-stamp/pugixml-populate-update
